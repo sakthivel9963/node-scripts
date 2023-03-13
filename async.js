@@ -20,7 +20,7 @@ const promiseMethod = async (data) => {
 };
 
 const main = async () => {
-  const { result, ok, error } = await resolvePromise(promiseMethod('ok3'));
+  const { result, ok, error } = await resolvePromise(promiseMethod('ok'));
   console.log(`🚀 ~ file: async.js ~ line: 17 :`, { result });
   console.log(`🚀 ~ file: async.js ~ line: 17 :`, { ok });
   console.log(`🚀 ~ file: async.js ~ line: 17 :`, { error });
